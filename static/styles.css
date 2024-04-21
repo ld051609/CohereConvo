@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    background-color: #f0f0f0; /* Optional: Add background color to h1 */
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 0 0;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#text-message-div {
+    flex: 1; /* Allow the text-message div to grow and fill the remaining space */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.text-area {
+    background-color: #f0f0f0; /* Optional: Add background color to text area */
+    padding: 30px;
+    margin-top: auto; /*Push the footer to the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#send-button{
+    border: none;
+}
+#send-button:hover{
+    cursor: pointer; 
+}
+#send-img{
+    height: 30px;
+    width: 30px;
+}
+#text-input{
+    width: 500px;
+    height: 30px;
+}
